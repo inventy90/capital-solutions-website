@@ -277,7 +277,7 @@ export default function WhyUsPage() {
                         Let's discuss your facility's needs. Whether you're looking for an AMC, emergency support, or a one-time project, we're here to help.
                     </p>
                     <div className={styles.ctaButtons}>
-                        <Link href="https://wa.me/966500933904?text=Hi%2C%20I%27d%20like%20to%20learn%20more%20about%20Capital%20Solutions." className="btn btn-primary">
+                        <Link href="https://wa.me/966507516840?text=Hi%2C%20I%27d%20like%20to%20learn%20more%20about%20Capital%20Solutions." className="btn btn-primary">
                             Chat on WhatsApp
                         </Link>
                         <Link href="/contact" className="btn btn-secondary">

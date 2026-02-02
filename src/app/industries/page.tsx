@@ -237,7 +237,7 @@ export default function IndustriesPage() {
                         Tell us about your facility and operational requirements. Our team will prepare a tailored maintenance proposal.
                     </p>
                     <div className={styles.ctaButtons}>
-                        <Link href="https://wa.me/966500933904?text=Hi%2C%20I%27m%20interested%20in%20discussing%20maintenance%20support%20for%20my%20facility." className="btn btn-primary">
+                        <Link href="https://wa.me/966507516840?text=Hi%2C%20I%27m%20interested%20in%20discussing%20maintenance%20support%20for%20my%20facility." className="btn btn-primary">
                             Chat on WhatsApp
                         </Link>
                         <Link href="/contact" className="btn btn-secondary">

@@ -64,7 +64,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
                     <div style={{ marginTop: 60, padding: 40, background: 'var(--bg-subtle)', borderRadius: 12, textAlign: 'center' }}>
                         <h3 style={{ marginBottom: 16 }}>Have a similar issue?</h3>
-                        <Link href="https://wa.me/966500933904" className="btn btn-primary">
+                        <Link href="https://wa.me/966507516840" className="btn btn-primary">
                             Talk to our team on WhatsApp
                         </Link>
                     </div>

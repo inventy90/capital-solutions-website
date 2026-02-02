@@ -56,7 +56,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                         <p className={styles.subtitle}>{service.hero.subheading}</p>
                         <div className={styles.heroButtons}>
                             <Link
-                                href={`https://wa.me/966500933904?text=${encodeURIComponent(service.cta.whatsappMessage)}`}
+                                href={`https://wa.me/966507516840?text=${encodeURIComponent(service.cta.whatsappMessage)}`}
                                 className="btn btn-primary"
                             >
                                 Chat on WhatsApp
@@ -206,7 +206,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                         <p className={styles.subtitle}>{service.cta.subheading}</p>
                         <div className={styles.heroButtons}>
                             <Link
-                                href={`https://wa.me/966500933904?text=${encodeURIComponent(service.cta.whatsappMessage)}`}
+                                href={`https://wa.me/966507516840?text=${encodeURIComponent(service.cta.whatsappMessage)}`}
                                 className="btn btn-primary"
                             >
                                 Chat on WhatsApp

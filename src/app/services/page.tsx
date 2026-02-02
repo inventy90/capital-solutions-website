@@ -90,7 +90,7 @@ export default function ServicesPage() {
                         Let us know your facility type and requirements. We'll prepare a tailored proposal.
                     </p>
                     <div className={styles.ctaButtons}>
-                        <Link href="https://wa.me/966500933904?text=Hi%2C%20I%27d%20like%20to%20discuss%20maintenance%20services%20for%20my%20facility." className="btn btn-primary">
+                        <Link href="https://wa.me/966507516840?text=Hi%2C%20I%27d%20like%20to%20discuss%20maintenance%20services%20for%20my%20facility." className="btn btn-primary">
                             Chat on WhatsApp
                         </Link>
                         <Link href="/contact" className="btn btn-secondary">

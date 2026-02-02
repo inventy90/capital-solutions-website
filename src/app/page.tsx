@@ -50,16 +50,16 @@ export default function Home() {
             Over 35 years of operational experience delivering preventive, corrective, and emergency maintenance support.
           </p>
           <div className={styles.heroButtons}>
-            <Link href="https://wa.me/966500933904" className="btn btn-primary">
+            <Link href="https://wa.me/966507516840" className="btn btn-primary">
               Chat on WhatsApp
             </Link>
             <Link href="/contact" className="btn btn-secondary" style={{ backgroundColor: 'white', color: 'var(--text-dark)' }}>
               Request a Site Visit
             </Link>
           </div>
-          <Link href="tel:+966500933904" className={styles.emergencyButton}>
+          <Link href="tel:+966507516840" className={styles.emergencyButton}>
             <span className={styles.pulse}></span>
-            Emergency Response: +966 50 093 3904 (24/7)
+            Emergency Response: +966 50 751 6840 (24/7)
           </Link>
         </div>
       </section>
@@ -498,7 +498,7 @@ export default function Home() {
               Our team is available to understand your requirements and support your facility operations.
             </p>
             <div className={styles.ctaButtons}>
-              <Link href="https://wa.me/966500933904" className="btn btn-primary">
+              <Link href="https://wa.me/966507516840" className="btn btn-primary">
                 Chat on WhatsApp
               </Link>
               <Link href="/contact" className="btn btn-secondary" style={{ backgroundColor: 'white', color: 'var(--text-dark)' }}>
