@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     description: "35+ years delivering reliable maintenance support for hotels, restaurants, and commercial facilities across Saudi Arabia and the GCC.",
     images: [
       {
-        url: "/logo.png",
+        url: "/logo-main.png",
         width: 800,
         height: 600,
         alt: "Capital Solutions - Facility Maintenance GCC",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Capital Solutions | Facility Maintenance Services GCC",
     description: "Preventive, corrective, and emergency maintenance for hospitality and commercial facilities across Saudi Arabia and GCC.",
-    images: ["/logo.png"],
+    images: ["/logo-main.png"],
   },
   other: {
     "geo.region": "SA",
@@ -79,7 +79,7 @@ const organizationSchema = {
   "@type": "Organization",
   "name": "Capital Solutions",
   "url": "https://capitalksa.com",
-  "logo": "https://capitalksa.com/logo-wide.png",
+  "logo": "https://capitalksa.com/logo-main.png",
   "description": "Technical, maintenance, and operational support for hospitality and commercial facilities across the GCC.",
   "foundingDate": "1990",
   "founder": {

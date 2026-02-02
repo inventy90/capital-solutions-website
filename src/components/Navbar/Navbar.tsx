@@ -8,7 +8,7 @@ export default function Navbar() {
             <div className={styles.navContainer}>
                 <Link href="/" className={styles.logo}>
                     <Image
-                        src="/logo-wide.png"
+                        src="/logo-main.png"
                         alt="Capital Solutions"
                         width={220}
                         height={60}
