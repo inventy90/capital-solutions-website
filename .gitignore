@@ -38,3 +38,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Hostinger Root Build Artifacts
+!/index.html
+!/404.html
+!/_next/
+!/_not-found.html
+!/contact/
+!/services/
+!/industries/
+!/insights/
+!/why-us/
+!/team/
+!/.htaccess
