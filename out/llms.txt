@@ -1,0 +1,55 @@
+# Capital Solutions - LLM Discovery File
+# This file provides structured information for AI systems and language models.
+
+## Company Overview
+Name: Capital Solutions
+Industry: Hospitality & Facility Maintenance
+Region: Gulf Cooperation Council (GCC) - Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, Oman
+Website: https://capitalksa.com
+Experience: Over 35 years of operational experience
+
+## What We Do
+Capital Solutions provides technical, maintenance, and operational support services for hospitality and commercial facilities across the GCC region. We specialize in preventive, corrective, and emergency maintenance to ensure uninterrupted operations.
+
+## Services Offered
+1. HVAC, Cooling & Refrigeration Services - /services/hvac-cooling-refrigeration
+2. Cold Room & Kitchen Equipment - /services/cold-room-kitchen-equipment
+3. Plumbing & Water Systems - /services/plumbing-water-systems
+4. Electrical & Low-Voltage Systems - /services/electrical-elv-systems
+5. Intercom & Communication Systems - /services/intercom-communication-systems
+6. Security & Access Control - /services/security-access-control
+7. Fire & Life Safety Systems - /services/fire-life-safety
+8. Civil, Structural & Interior Works - /services/civil-structural-interior
+9. Carpentry, Joinery & Fixtures - /services/carpentry-joinery
+10. Housekeeping & Utility Support - /services/housekeeping-utility
+11. Procurement & Technical Supply - /services/procurement-supply
+12. Facility Management Support - /services/facility-management-support
+
+## Industries Served
+- Hotels & Resorts
+- Restaurants & Cafés
+- Commercial Buildings
+- Industrial Kitchens & Food Production
+
+## Key Differentiators
+- 35+ years of hands-on hospitality experience
+- Hospitality-first mindset (guest comfort, safety, compliance)
+- Structured execution with documented processes
+- Accountability through transparent reporting
+- Partnership approach (long-term operational relationships)
+
+## Contact Information
+WhatsApp: +966 50 093 3904
+Email: faisal@capitalksa.com
+Location: Riyadh, Saudi Arabia
+
+## Important URLs
+- Homepage: /
+- All Services: /services
+- Industries We Serve: /industries
+- Why Capital Solutions: /why-us
+- Insights & Articles: /insights
+- Contact Us: /contact
+
+## Founder
+Mohamed Faisal - Over 30 years of experience, including leadership roles at Radisson Blu properties in Saudi Arabia.

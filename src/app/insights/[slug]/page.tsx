@@ -2,24 +2,31 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import styles from '../page.module.css';
 
-type Props = {
-    params: { slug: string };
-    searchParams: { [key: string]: string | string[] | undefined };
-};
+const ARTICLES = [
+    { slug: 'preventing-hvac-failures-summer' },
+    { slug: 'cold-room-maintenance-checklist' },
+    { slug: 'benefits-of-amc' }
+];
+
+export async function generateStaticParams() {
+    return ARTICLES.map((article) => ({
+        slug: article.slug,
+    }));
+}
 
 export async function generateMetadata(
-    { params }: Props
+    { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
-    // In a real app, fetch title by slug
-    const title = params.slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    const { slug } = await params;
+    const title = slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
     return {
         title: `${title} | Capital Solutions Insights`,
     };
 }
 
-export default function ArticlePage({ params }: Props) {
-    // In reality, this would fetch content based on params.slug
-    const title = params.slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const title = slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
     return (
         <main>
@@ -37,7 +44,7 @@ export default function ArticlePage({ params }: Props) {
                     <div className="content">
                         <p style={{ fontSize: '1.1rem', color: 'var(--text-dark)', marginBottom: 20 }}>
                             This is a placeholder for the full article content. In a production environment,
-                            this would be populated from a CMS or Markdown file corresponding to the slug: <strong>{params.slug}</strong>.
+                            this would be populated from a CMS or Markdown file corresponding to the slug: <strong>{slug}</strong>.
                         </p>
                         <p>
                             At Capital Solutions, we believe in sharing our knowledge to help you maintain better facilities.
