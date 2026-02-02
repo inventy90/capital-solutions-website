@@ -10,8 +10,8 @@ export default function Navbar() {
                     <Image
                         src="/logo-main.png"
                         alt="Capital Solutions"
-                        width={220}
-                        height={60}
+                        width={200}
+                        height={48}
                         style={{ objectFit: 'contain' }}
                         priority
                     />

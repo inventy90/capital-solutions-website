@@ -2,14 +2,17 @@
   /* Brand Colors */
   --primary-blue: #014aad;
   --bg-white: #ffffff;
-  --bg-subtle: #F5F5F7; /* Apple-like subtle gray for sections */
-  --text-dark: #1d1d1f; /* Apple-like dark gray for text */
-  --text-light: #86868b; /* Apple-like light gray for secondary text */
+  --bg-subtle: #F5F5F7;
+  /* Apple-like subtle gray for sections */
+  --text-dark: #1d1d1f;
+  /* Apple-like dark gray for text */
+  --text-light: #86868b;
+  /* Apple-like light gray for secondary text */
   --c-accent: #d9d9d9;
-  
+
   /* Spacing & Layout */
   --max-width: 1200px;
-  --nav-height: 64px;
+  --nav-height: 80px;
 }
 
 * {
@@ -31,7 +34,12 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -57,7 +65,8 @@ p {
   align-items: center;
   justify-content: center;
   padding: 12px 24px;
-  border-radius: 980px; /* Pill shape */
+  border-radius: 980px;
+  /* Pill shape */
   font-weight: 500;
   transition: all 0.2s ease;
   cursor: pointer;
@@ -71,7 +80,8 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: #003a8c; /* Slightly darker blue */
+  background-color: #003a8c;
+  /* Slightly darker blue */
   transform: translateY(-1px);
 }
 
