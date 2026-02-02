@@ -34,7 +34,7 @@ export default function ContactForm() {
                             Need an immediate response?
                         </p>
                         <a
-                            href="https://wa.me/966500933904?text=Hi%2C%20I%20just%20submitted%20an%20inquiry%20from%20your%20website%20and%20need%20urgent%20assistance."
+                            href="https://wa.me/966507516840?text=Hi%2C%20I%20just%20submitted%20an%20inquiry%20from%20your%20website%20and%20need%20urgent%20assistance."
                             className="btn btn-primary"
                             style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}
                         >
@@ -68,7 +68,7 @@ export default function ContactForm() {
                         name="entry.2005620554"
                         required
                         className={styles.input}
-                        placeholder="e.g. Mohamed Faisal"
+                        placeholder="e.g. Muhammed"
                     />
                 </div>
 

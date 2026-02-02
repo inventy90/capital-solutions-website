@@ -26,17 +26,26 @@ export default function ContactPage() {
                         {/* Contact Info Side */}
                         <div>
                             <div className={styles.infoBlock}>
-                                <div className={styles.label}>Whatsapp (Fastest)</div>
+                                <div className={styles.label}>Whatsapp (Primary)</div>
                                 <div className={styles.value}>
-                                    <Link href="https://wa.me/966500933904" style={{ color: 'var(--primary-blue)' }}>
-                                        +966 50 093 3904
+                                    <Link href="https://wa.me/966507516840" style={{ color: 'var(--primary-blue)' }}>
+                                        +966 50 751 6840
+                                    </Link>
+                                </div>
+                            </div>
+
+                            <div className={styles.infoBlock}>
+                                <div className={styles.label}>Contact Number (Support)</div>
+                                <div className={styles.value}>
+                                    <Link href="tel:+966567109170" style={{ color: 'var(--primary-blue)' }}>
+                                        +966 56 710 9170
                                     </Link>
                                 </div>
                             </div>
 
                             <div className={styles.infoBlock}>
                                 <div className={styles.label}>Email</div>
-                                <div className={styles.value}>faisal@capitalksa.com</div>
+                                <div className={styles.value}>sales@capitalksa.com</div>
                             </div>
 
                             <div className={styles.infoBlock}>
@@ -47,7 +56,7 @@ export default function ContactPage() {
                             <div className={styles.whatsappBlock}>
                                 <h3 style={{ fontSize: '1.25rem', marginBottom: 12 }}>Need Urgent Help?</h3>
                                 <p style={{ marginBottom: 20, color: 'var(--text-light)' }}>Our technical team is available on WhatsApp for immediate assistance.</p>
-                                <Link href="https://wa.me/966500933904" className="btn btn-primary" style={{ width: '100%' }}>
+                                <Link href="https://wa.me/966507516840" className="btn btn-primary" style={{ width: '100%' }}>
                                     Chat Now
                                 </Link>
                             </div>

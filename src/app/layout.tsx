@@ -79,7 +79,7 @@ const organizationSchema = {
   "@type": "Organization",
   "name": "Capital Solutions",
   "url": "https://capitalksa.com",
-  "logo": "https://capitalksa.com/logo.png",
+  "logo": "https://capitalksa.com/logo-wide.png",
   "description": "Technical, maintenance, and operational support for hospitality and commercial facilities across the GCC.",
   "foundingDate": "1990",
   "founder": {
@@ -93,9 +93,9 @@ const organizationSchema = {
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+966-50-093-3904",
+    "telephone": "+966-50-751-6840",
     "contactType": "customer service",
-    "email": "faisal@capitalksa.com",
+    "email": "sales@capitalksa.com",
     "areaServed": ["SA", "AE", "QA", "KW", "BH", "OM"],
     "availableLanguage": ["English", "Arabic"]
   },

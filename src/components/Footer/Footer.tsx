@@ -46,11 +46,14 @@ export default function Footer() {
                         <Link href="/contact">Contact Us</Link>
 
                         <div style={{ marginTop: '24px' }}>
-                            <Link href="https://wa.me/966500933904" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 600, color: 'white' }}>
-                                WhatsApp: +966 50 093 3904
+                            <Link href="https://wa.me/966507516840" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 600, color: 'white', display: 'block', marginBottom: '8px' }}>
+                                WhatsApp: +966 50 751 6840
                             </Link>
-                            <Link href="mailto:faisal@capitalksa.com">
-                                faisal@capitalksa.com
+                            <Link href="tel:+966567109170" style={{ fontWeight: 500, color: 'white', display: 'block', marginBottom: '8px' }}>
+                                Contact: +966 56 710 9170
+                            </Link>
+                            <Link href="mailto:sales@capitalksa.com" style={{ display: 'block' }}>
+                                sales@capitalksa.com
                             </Link>
                         </div>
                     </div>
