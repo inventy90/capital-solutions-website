@@ -1,0 +1,135 @@
+.header {
+    padding: 100px 0 60px;
+    background-color: var(--bg-subtle);
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    color: var(--text-dark);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.subtitle {
+    color: var(--text-light);
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.infoBlock {
+    margin-bottom: 40px;
+}
+
+.label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-bottom: 8px;
+    letter-spacing: 0.05em;
+}
+
+.value {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.formCard {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--c-accent);
+}
+
+.formGroup {
+    margin-bottom: 24px;
+}
+
+.inputLabel {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.input,
+.select,
+.textarea {
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--text-dark);
+    transition: all 0.2s ease;
+    background-color: #fafafa;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+    outline: none;
+    border-color: var(--primary-blue);
+    background-color: white;
+    box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.1);
+}
+
+.textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.formNote {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.whatsappBlock {
+    background-color: var(--bg-subtle);
+    padding: 32px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.submitted {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 102, 204, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.whatsappSuggestion {
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
