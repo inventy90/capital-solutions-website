@@ -42,6 +42,7 @@ export default function Footer() {
                         <h4>Quick Links</h4>
                         <Link href="/why-us">Why Capital Solutions</Link>
                         <Link href="/industries">Industries We Serve</Link>
+                        <Link href="/team">Our Team</Link>
                         <Link href="/insights">Insights</Link>
                         <Link href="/contact">Contact Us</Link>
 

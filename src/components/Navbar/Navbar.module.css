@@ -47,14 +47,77 @@
     color: var(--primary-blue);
 }
 
-.ctaButton {
-    padding: 8px 16px;
-    font-size: 0.9rem;
+.menuToggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-dark);
+    cursor: pointer;
+    z-index: 1001;
+    padding: 8px;
 }
 
-@media (max-width: 768px) {
+.mobileCta {
+    display: none;
+    background-color: var(--primary-blue);
+    color: white !important;
+    padding: 12px 24px;
+    border-radius: 980px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    z-index: 999;
+}
+
+.ctaButton {
+    padding: 8px 20px;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 992px) {
     .navLinks {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 100vh;
+        background-color: white;
+        flex-direction: column;
+        padding: 100px 40px;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+        transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        z-index: 1000;
+        gap: 24px;
+    }
+
+    .navActive {
+        right: 0;
+    }
+
+    .menuToggle {
+        display: block;
+    }
+
+    .ctaButton {
         display: none;
-        /* Mobile menu implementation usually goes here, simplified for now */
+    }
+
+    .mobileCta {
+        display: block;
+    }
+
+    .navLink {
+        font-size: 1.1rem;
+        width: 100%;
     }
 }
