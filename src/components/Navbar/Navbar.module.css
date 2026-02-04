@@ -130,4 +130,8 @@
         font-size: 1.1rem;
         width: 100%;
     }
+
+    .logoImage {
+        width: 130px;
+    }
 }
