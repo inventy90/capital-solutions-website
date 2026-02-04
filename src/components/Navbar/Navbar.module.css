@@ -25,10 +25,19 @@
 }
 
 .logo {
-    font-weight: 700;
-    font-size: 1.25rem;
-    color: var(--primary-blue);
-    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    width: 160px;
+    height: auto;
+    object-fit: contain;
 }
 
 .navLinks {
@@ -51,10 +60,11 @@
     display: none;
     background: none;
     border: none;
-    color: var(--text-dark);
+    color: var(--primary-blue);
     cursor: pointer;
-    z-index: 1001;
+    z-index: 1100;
     padding: 8px;
+    margin-right: -8px;
 }
 
 .mobileCta {

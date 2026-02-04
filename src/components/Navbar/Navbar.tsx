@@ -16,14 +16,16 @@ export default function Navbar() {
         <header className={styles.header}>
             <div className={styles.navContainer}>
                 <Link href="/" className={styles.logo} onClick={closeMenu}>
-                    <Image
-                        src="/logo-main.png"
-                        alt="Capital Solutions"
-                        width={200}
-                        height={48}
-                        style={{ objectFit: 'contain' }}
-                        priority
-                    />
+                    <div className={styles.logoWrapper}>
+                        <Image
+                            src="/logo-main.png"
+                            alt="Capital Solutions"
+                            width={160}
+                            height={40}
+                            className={styles.logoImage}
+                            priority
+                        />
+                    </div>
                 </Link>
 
                 {/* Mobile Menu Toggle */}
