@@ -114,16 +114,29 @@
         right: 0;
     }
 
-    .menuToggle {
-        display: block;
+    /* Reorder elements on mobile: Logo (1), CTA (2), Toggle (3) */
+    .logo {
+        order: 1;
+        margin-right: auto;
     }
 
     .ctaButton {
-        display: none;
+        display: flex; /* Make visible on mobile */
+        order: 2;
+        padding: 6px 16px; /* Smaller padding */
+        font-size: 0.85rem; /* Smaller text */
+        margin-right: 12px; /* Space between button and toggle */
     }
 
-    .mobileCta {
+    .menuToggle {
         display: block;
+        order: 3;
+        margin-right: -8px; /* Maintain original alignment */
+    }
+
+    /* Hide the duplicate 'Contact Us' inside the mobile menu since it's on the bar now */
+    .mobileCta {
+        display: none;
     }
 
     .navLink {
@@ -132,6 +145,6 @@
     }
 
     .logoImage {
-        width: 130px;
+        width: 120px; /* Slightly smaller for mobile */
     }
 }
